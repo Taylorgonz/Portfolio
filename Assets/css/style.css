@@ -51,3 +51,14 @@ div.about-me {
     border-radius: 15px;
     color: #fff;
 }
+
+footer.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #B42621;
+    color: #D1C775;
+    text-align: center;
+}
