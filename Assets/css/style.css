@@ -12,7 +12,7 @@ p {
 nav.navbar {
     background-color: #D1C775;
     border-bottom: 5px solid #B42621;
-    
+    position: relative;
 }
 
 a.header {
@@ -29,6 +29,14 @@ nav.navbar li a {
     text-align: center;
 }
 
+button.drop-down{
+    background-color: #B42621;
+    color: #D1C775;
+    font-size:25px;
+    padding: 3px;
+    text-align: center;
+    width: 100px
+}
 hr{
     border: 2px solid #B42621;
 }
