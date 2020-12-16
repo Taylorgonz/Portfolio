@@ -5,9 +5,13 @@
 body {
     background-image: url("../Images/background.png");
 }
-
+p {
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
 nav.navbar {
     background-color: #D1C775;
+    border-bottom: 5px solid #B42621;
     
 }
 
@@ -18,7 +22,9 @@ a.header {
 }
 
 nav.navbar li a {
+    font-family: 'Bebas Neue', cursive;
     color:#B42621 ;
+    font-size: 22px;
     text-decoration: none;
     text-align: center;
 }
@@ -36,5 +42,5 @@ div.about-me {
     margin-top: 10px;
     padding: 20px;
     border-radius: 15px;
-    color: #eeeeee
+    color: #fff;
 }
