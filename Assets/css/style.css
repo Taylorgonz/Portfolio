@@ -122,10 +122,10 @@ div.container {
 img.navIcons {
     margin: 10px;
     width: 40px;
-    align-items: center;
 }
 a.footerIconLink {
     text-decoration: none;
+    color:#f62a00;
 }
  footer.footer, .push {
     height: 50px;
