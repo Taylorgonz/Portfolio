@@ -88,6 +88,9 @@ div.contactInput {
     color: #F1F3CE;
     font-size: 18px;
 }
+textarea.messageBox {
+    height:200px;
+}
 
 input.contactButton {
     background-color: #f62a00;
