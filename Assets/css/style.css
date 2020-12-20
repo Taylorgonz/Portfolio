@@ -76,12 +76,13 @@ div.contactForm {
     width: 100%;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 0;
+    margin:10px;
+    padding: 20px;
 
 }
 div.contactInput {
     background-color: #1E656D;
-    margin-top: 10px;
+    margin: 10px;
     padding: 20px;
     border-radius: 15px;
     color: #F1F3CE;
@@ -97,7 +98,7 @@ input.contactButton {
 }
 div.portfolio {
     background-color: #1E656D;
-    margin-top: 10px;
+    margin: 10px;
     padding: 20px;
     border-radius: 15px;
     color: #F1F3CE;
