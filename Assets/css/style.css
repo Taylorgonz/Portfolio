@@ -51,7 +51,7 @@ nav.navbar li a {
     color: #F1F3CE ;
     font-size: 22px;
     text-decoration: none;
-    text-align: center;
+    text-align: right;
 }
 
 /* navbar drop down settings */
@@ -84,16 +84,6 @@ img.aboutMeImg {
     border: 3px solid #F1F3CE;
     border-radius: 10px;
 }
-/* contact form settings */
-div.contactForm {
-    float: center;
-    width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin:10px;
-    padding: 20px;
-
-}
 
 /* contact form contents settings */
 div.contactInput {
@@ -102,7 +92,8 @@ div.contactInput {
     padding: 20px;
     border-radius: 15px;
     color: #F1F3CE;
-   font-size: 18px;
+    font-size:18;
+    position: relative;
 }
 
 /* textarea box size */
