@@ -5,6 +5,7 @@
     margin: 0;
 }
 
+/* setting background color and flex box settings */
 html, body {
     height: 100%;
     background-color: #F1F3CE;
@@ -12,28 +13,39 @@ html, body {
     flex-direction: column;
 }
 
+/* setting the body wrapper to full width */
 div.wrapper {
     flex: 1;
     
 }
 
+/*  setting all <p> tags font size and family */
 p {
     font-size: 18px;
     font-family:Arial, Helvetica, sans-serif;
 }
-nav.navbar {
-    position: fixed;
-    background-color:  #f62a00;
-    border-bottom: 5px solid #F1F3CE;
-    position: relative;
+
+ /* setting all h1 tags for consistency */
+ h1{
+    font-family: 'Bebas Neue', cursive;
 }
 
+/* navbar background settings */
+nav.navbar {
+    background-color:  #f62a00;
+    border-bottom: 5px solid #F1F3CE;
+    width: 100%;
+
+}
+
+ /* setting TAYLORGONZ in header */
 a.header {
     color: #F1F3CE;
     font-size: 36px;
     font-family: 'Bungee', cursive;
 }
 
+/* navbar links */
 nav.navbar li a {
     font-family: 'Bebas Neue', cursive;
     color: #F1F3CE ;
@@ -42,6 +54,7 @@ nav.navbar li a {
     text-align: center;
 }
 
+/* navbar drop down settings */
 button.drop-down{
     background-color: #1E656D;
     color: #F1F3CE;
@@ -49,15 +62,14 @@ button.drop-down{
     padding: 2px;
     text-align: center;
 }
+
+/* horizantal line in the about me box */
 hr{
     border: 2px solid #F1F3CE;
     margin: 5px;
 }
 
-h1{
-    font-family: 'Bebas Neue', cursive;
-   
-}
+/* about me box settings */
 div.about-me {
     background-color: #1E656D;
     margin: 10px;
@@ -65,15 +77,16 @@ div.about-me {
     border-radius: 15px;
     color: #F1F3CE;
 }
+/* about me image settings */
 img.aboutMeImg {
     width: 300px;
     padding: 0;
     border: 3px solid #F1F3CE;
     border-radius: 10px;
 }
-
+/* contact form settings */
 div.contactForm {
-    flex:auto;
+    float: center;
     width: 100%;
     margin-left: 20px;
     margin-right: 20px;
@@ -81,18 +94,23 @@ div.contactForm {
     padding: 20px;
 
 }
+
+/* contact form contents settings */
 div.contactInput {
     background-color: #1E656D;
     margin: 10px;
     padding: 20px;
     border-radius: 15px;
     color: #F1F3CE;
-    font-size: 18px;
+   font-size: 18px;
 }
+
+/* textarea box size */
 textarea.messageBox {
     height:200px;
 }
 
+/* contact submit button */
 input.contactButton {
     background-color: #f62a00;
     color: #F1F3CE;
@@ -100,6 +118,7 @@ input.contactButton {
     height: 75px;
     font-size: 28px;
 }
+/* portfolio box settings */
 div.portfolio {
     background-color: #1E656D;
     margin: 10px;
@@ -108,6 +127,8 @@ div.portfolio {
     color: #F1F3CE;
     position: relative;
 }
+
+/*portfolio img settings  */
 img.portfolioImg {
     margin: 10px;
     position: relative;
@@ -116,26 +137,34 @@ img.portfolioImg {
     align-content:center;
 }
 
+/* footer container settings */
+div.container {
+    flex: 1;
+}
+
+/* footer icon styling */
 li.footerNav {
     display: inline;
     list-style: none;
 
 }
-div.container {
-    flex: 1;
-}
+/* footer icon sizing */
 img.navIcons {
     margin: 10px;
     width: 40px;
 }
+
+/* footer credit link styling */
 a.footerIconLink {
     text-decoration: none;
     color:#f62a00;
 }
+
+/* dive about footer to keep body/footer seperated */
  footer.footer, .push {
     height: 50px;
 }
-
+/* footer settins */
 footer.footer{
     position: sticky;
     flex-shrink; 0;
