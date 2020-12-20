@@ -11,6 +11,15 @@ Below I have a screenshots of the Website.
 ![alt text](Assets/Images/screenshots/contact-screenshot.png)
 ![alt text](Assets/Images/screenshots/portfolio-screenshot.png)
 
+## Usage
+This is a simple responsive sight and has
+ -css
+ -html
+ -bootstrap
+ -dropdown navigation bar
+ -sticky footer
+ -contact form
+ -bootrap grids
 
 ## Credits
 Credit to [Mike Fearnley](https://michaelfearnley.com/) and [Scott Byers](https://github.com/switch120)
