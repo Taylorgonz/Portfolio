@@ -157,7 +157,7 @@ a.footerIconLink {
 }
 /* footer settins */
 footer.footer{
-    position: sticky;
+    padding: 0;
     flex-shrink; 0;
     height: 150px;
     width: 100%;
