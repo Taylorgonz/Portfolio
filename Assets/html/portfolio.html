@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TaylorGonz - Contact</title>
+        <title>TaylorGonz - Portfolio</title>
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <!-- Google fonts -->
@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
+        <!-- wrapping body content -->
+        <div class="wrapper">
         <!-- begin nav bar -->
         <header>
             <nav class="navbar navbar-expand-lg">
@@ -34,7 +36,7 @@
               </nav>
         </header>
         <!-- end nav bar -->    
-        <body>
+        <main>
             <div class="container">
             <div class="row">
             <div class="col-md-auto portfolio">
@@ -46,13 +48,13 @@
   
                     <!--first row of photos-->
                 <div class="col-md-4">
-                  <img class="img img-float portfolioImg" src="../Images/Porfolio-photos/tandem.JPG">
+                  <img class="img img-float portfolioImg" src="../Images/Porfolio-photos/tandem.JPG" alt="image of tandem coffee roasters.">
                 </div>
                 <div class="col-md-4">
-                    <img class="img img-float portfolioImg" src="../Images/Porfolio-photos/chemex-pour.jpg">
+                    <img class="img img-float portfolioImg" src="../Images/Porfolio-photos/chemex-pour.jpg" alt="pouring coffee from a chemex.">
                 </div>
                 <div class="col-md-4">
-                    <img class="img img-float portfolioImg" src="../Images/Porfolio-photos/austin-street.JPG">
+                    <img class="img img-float portfolioImg" src="../Images/Porfolio-photos/austin-street.JPG" alt="photo of austin street brewery.">
                 </div>
                 <!-- end of first row of photos -->
                 <!-- second row of photos -->
@@ -81,18 +83,40 @@
                     <div class="col-md-4">
                         <img class="img img-float portfolioImg" src="../Images/Porfolio-photos/ryan-shirt.JPG">
                     </div>
-                    </div>
+                   </div>
+                </div>
             </div>
           </div>
-        </div>
-        </body>
-        
+        </main>
+
+        <div class="push"></div>
+     </div>
+        <!-- footer -->
         <footer class="footer">
-          <p> Made by: Taylor Gonzales.</p>
+            <div class="container">
+        <!-- social link icons -->
+                <ul>
+
+                    <li class="footerNav"><a href="https://www.instagram.com/taylorgonz/" target="_blank"><img class="navIcons" src="../Images/social-icons/instagram.png"></a></li>
+
+                    <li class="footerNav"><a href="https://twitter.com/TaylorGonz_" target="_blank"><img class="navIcons" src="../Images/social-icons/twitter-bird.png"></a></li>
+
+                    <li class="footerNav"><a href="https://www.youtube.com/channel/UC7b6cmjQUEORq91I9f1sJWw?view_as=subscriber" target="_blank"><img class="navIcons" src="../Images/social-icons/youtube.png"></a></li>
+
+                    <li class="footerNav"><a href="https://www.linkedin.com/in/taylorgonz/" target="_blank"><img class="navIcons" src="../Images/social-icons/linkedin.png"></a></li>
+                </ul>
+            <!-- made by statement -->
+                <p> Made by : Taylor Gonzales.</p>
+            <!-- credit link for icons -->
+
+                <div >Icons made by <a class="footerIconLink" href="https://www.flaticon.com/authors/freepik" target="_blank" title="Freepik">Freepik</a> from <a class="footerIconLink" href="https://www.flaticon.com/" target="_blank" title="Flaticon">www.flaticon.com</a></div>
+            </div>
         </footer>
-
-
+        
         <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    </body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        </body>
+
+
+        
 </html>
