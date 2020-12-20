@@ -7,9 +7,9 @@ I used many of the HTML and CSS skills we've learned to so far, along with my ne
 
 
 Below I have a screenshots of the Website.
-![alt text](./Assets/Images/screenshots/about-screenshots.png)
-![alt text](./Assets/Images/screenshots/contact-screenshots.png)
-![alt text](./Assets/Images/screenshots/portfolio-screenshots.png)
+![alt text](Assets/Images/screenshots/about-screenshota.png)
+![alt text](Assets/Images/screenshots/contact-screenshot.png)
+![alt text](Assets/Images/screenshots/portfolio-screenshot.png)
 
 
 ## Credits
